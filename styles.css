@@ -1,0 +1,58 @@
+
+
+
+body {
+    /* background-color: #081D3B; */
+    background: #100a1c;
+    background-image:
+      radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+      radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+    
+}
+
+h1 {
+    color: #FFC000;
+}
+
+.container{
+    width: 40%;
+    top: 25%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 120px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    margin-right: 27px;
+}
+
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    padding: 30px 20px;
+    margin-top: 90px;
+}
+
+.righty {
+    float:right;
+}
+
+.butter {
+    margin-left: 4.19px;
+}
+
+li .form-control {
+    width: 80%;
+    display: inline-block;
+}
